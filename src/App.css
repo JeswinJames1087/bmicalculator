@@ -1,0 +1,31 @@
+.background {
+  background-image: url('https://www.bowtie.com.hk/blog/wp-content/uploads/2021/07/16172631/Body-Mass-Index-BMI.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.overlay {
+  background-color: rgba(117, 217, 241, 0.5); /* Semi-transparent black overlay */
+  padding: 100px;
+  text-align: center;
+  color: rgb(17, 16, 16);
+  font-size:xx-large;
+}
+
+.App {
+  height: 100%;
+}
+
+.overlay > div {
+  margin-bottom: 10px;
+}
+
+.overlay select {
+  margin-left: 10px;
+  padding: 5px;
+}
